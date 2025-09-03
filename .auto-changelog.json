@@ -1,0 +1,9 @@
+{
+  "commitTypes": {
+    "feat": { "title": "New Features" },
+    "fix": { "title": "Bug Fixes" },
+    "docs": { "title": "Documentation" },
+    "chore": { "title": "Chores" },
+    "refactor": { "title": "Refactoring" }
+  }
+}
