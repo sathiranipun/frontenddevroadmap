@@ -6,7 +6,7 @@
     "changelog": "auto-changelog --commit-limit false --unreleased",
     "release:major": "npm version major && npm run changelog && git add CHANGELOG.md package.json && git commit -m \"chore(release): bump version and update changelog\" && git push && git push --tags",
     "release:minor": "npm version minor && npm run changelog && git add CHANGELOG.md package.json && git commit -m \"chore(release): bump version and update changelog\" && git push && git push --tags",
-    "release:patch": "npm version patch && npm run changelog && git add CHANGELOG.md package.json && git commit -m \"chore(release): bump version and update changelog\" && git push && git push --tags"
+    "release:patch": "npm version patch && npm run changelog && git add CHANGELOG.md package.json && git commit -m \"chore(release): bump version and update changelog\" && npm run changelog && git add CHANGELOG.md && git commit --amend --no-edit && git push && git push --tags"
   },
   "devDependencies": {
     "auto-changelog": "^2.5.0"
