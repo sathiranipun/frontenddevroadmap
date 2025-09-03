@@ -1,0 +1,30 @@
+# Node modules (if you use npm/yarn)
+node_modules/
+
+# Build output (if you add build scripts later)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous
+*.swp
+*.swo
+
+# Optional: Ignore changelog if you want to regenerate it each time
+# CHANGELOG.md
